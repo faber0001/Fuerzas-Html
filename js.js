@@ -74,7 +74,7 @@ function actualizarHistorial() {
     if (comparacionesVerdaderas.length > 0) {
         historialTextarea.value += '\nRepetición: ';
         for (var j = 0; j < comparacionesVerdaderas.length; j++) {
-            historialTextarea.value += 'Ingreso ' + comparacionesVerdaderas[j].ingreso + ' - Número ' + comparacionesVerdaderas[j].numero + ' ';
+            historialTextarea.value += 'In ' + comparacionesVerdaderas[j].ingreso + ' - Número ' + comparacionesVerdaderas[j].numero + ' ';
         }
     }
 
@@ -82,7 +82,7 @@ function actualizarHistorial() {
     if (devoluciones.length > 0) {
         historialTextarea.value += '\nDevolucion: ';
         for (var k = 0; k < devoluciones.length; k++) {
-            historialTextarea.value += 'Ingreso ' + devoluciones[k].ingreso + ' - Número ' + devoluciones[k].numero + ' ';
+            historialTextarea.value += 'In ' + devoluciones[k].ingreso + ' - Número ' + devoluciones[k].numero + ' ';
         }
     }
 
@@ -90,7 +90,7 @@ function actualizarHistorial() {
     if (condicionesTres.length > 0) {
         historialTextarea.value += '\nFntPerfect: ';
         for (var l = 0; l < condicionesTres.length; l++) {
-            historialTextarea.value += 'Ingreso ' + condicionesTres[l].ingreso + ' - Número ' + condicionesTres[l].numero + ' ';
+            historialTextarea.value += 'In ' + condicionesTres[l].ingreso + ' - Número ' + condicionesTres[l].numero + ' ';
         }
     }
     
