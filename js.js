@@ -80,7 +80,7 @@ function actualizarHistorial() {
 
     // Mostrar las devoluciones en el textarea
     if (devoluciones.length > 0) {
-        historialTextarea.value += '\nDevoluciones: ';
+        historialTextarea.value += '\nDevolucion: ';
         for (var k = 0; k < devoluciones.length; k++) {
             historialTextarea.value += 'Ingreso ' + devoluciones[k].ingreso + ' - Número ' + devoluciones[k].numero + ' ';
         }
@@ -88,7 +88,7 @@ function actualizarHistorial() {
 
     // Mostrar las condiciones tres en el textarea
     if (condicionesTres.length > 0) {
-        historialTextarea.value += '\nFrente Perfecto: ';
+        historialTextarea.value += '\nFntPerfect: ';
         for (var l = 0; l < condicionesTres.length; l++) {
             historialTextarea.value += 'Ingreso ' + condicionesTres[l].ingreso + ' - Número ' + condicionesTres[l].numero + ' ';
         }
