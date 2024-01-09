@@ -69,9 +69,9 @@ function actualizarHistorial() {
 
     // Mostrar las comparaciones verdaderas en el textarea
     if (comparacionesVerdaderas.length > 0) {
-        historialTextarea.value += '\nComparaciones Verdaderas: ';
+        historialTextarea.value += '\nRepetición: ';
         for (var j = 0; j < comparacionesVerdaderas.length; j++) {
-            historialTextarea.value += 'Repetición en el Ingreso ' + comparacionesVerdaderas[j].ingreso + ' - Número ' + comparacionesVerdaderas[j].numero + ' ';
+            historialTextarea.value += 'Ingreso ' + comparacionesVerdaderas[j].ingreso + ' - Número ' + comparacionesVerdaderas[j].numero + ' ';
         }
     }
 
@@ -79,15 +79,15 @@ function actualizarHistorial() {
     if (devoluciones.length > 0) {
         historialTextarea.value += '\nDevoluciones: ';
         for (var k = 0; k < devoluciones.length; k++) {
-            historialTextarea.value += 'Devolución en el Ingreso ' + devoluciones[k].ingreso + ' - Número ' + devoluciones[k].numero + ' ';
+            historialTextarea.value += 'Ingreso ' + devoluciones[k].ingreso + ' - Número ' + devoluciones[k].numero + ' ';
         }
     }
 
     // Mostrar las condiciones tres en el textarea
     if (condicionesTres.length > 0) {
-        historialTextarea.value += '\nCondiciones Tres: ';
+        historialTextarea.value += '\nFrente Perfecto: ';
         for (var l = 0; l < condicionesTres.length; l++) {
-            historialTextarea.value += 'Frente Perfecto en el Ingreso ' + condicionesTres[l].ingreso + ' - Número ' + condicionesTres[l].numero + ' ';
+            historialTextarea.value += 'Ingreso ' + condicionesTres[l].ingreso + ' - Número ' + condicionesTres[l].numero + ' ';
         }
     }
     
