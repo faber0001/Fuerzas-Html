@@ -90,12 +90,5 @@ function actualizarHistorial() {
             historialTextarea.value += 'Frente Perfecto en el Ingreso ' + condicionesTres[l].ingreso + ' - Número ' + condicionesTres[l].numero + ' ';
         }
     }
-    document.addEventListener('DOMContentLoaded', function() {
-        // Obtener la referencia al elemento inputnumero
-        var inputNumero = document.getElementById('inputnumero');
-    
-        // Hacer que el cursor aparezca automáticamente en la caja de texto
-        inputNumero.focus();
-    });
     
 }
