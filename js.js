@@ -72,25 +72,25 @@ function actualizarHistorial() {
 
     // Mostrar las comparaciones verdaderas en el textarea
     if (comparacionesVerdaderas.length > 0) {
-        historialTextarea.value += '\nRepetición: ';
+        historialTextarea.value += '\nRep: ';
         for (var j = 0; j < comparacionesVerdaderas.length; j++) {
-            historialTextarea.value += 'In ' + comparacionesVerdaderas[j].ingreso + ' - Número ' + comparacionesVerdaderas[j].numero + ' ';
+            historialTextarea.value += 'In ' + comparacionesVerdaderas[j].ingreso + ' - Núm ' + comparacionesVerdaderas[j].numero + ' ';
         }
     }
 
     // Mostrar las devoluciones en el textarea
     if (devoluciones.length > 0) {
-        historialTextarea.value += '\nDevolucion: ';
+        historialTextarea.value += '\nDev: ';
         for (var k = 0; k < devoluciones.length; k++) {
-            historialTextarea.value += 'In ' + devoluciones[k].ingreso + ' - Número ' + devoluciones[k].numero + ' ';
+            historialTextarea.value += 'In ' + devoluciones[k].ingreso + ' - Núm ' + devoluciones[k].numero + ' ';
         }
     }
 
     // Mostrar las condiciones tres en el textarea
     if (condicionesTres.length > 0) {
-        historialTextarea.value += '\nFntPerfect: ';
+        historialTextarea.value += '\nFtP: ';
         for (var l = 0; l < condicionesTres.length; l++) {
-            historialTextarea.value += 'In ' + condicionesTres[l].ingreso + ' - Número ' + condicionesTres[l].numero + ' ';
+            historialTextarea.value += 'In ' + condicionesTres[l].ingreso + ' - Núm ' + condicionesTres[l].numero + ' ';
         }
     }
     
