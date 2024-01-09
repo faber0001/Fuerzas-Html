@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Estilo para la caja de texto input */
 body{
   background:black;
@@ -9,6 +10,23 @@ body{
   color: yellowgreen;
   border: 1px solid yellowgreen;
   padding: 5px;
+=======
+/* Estilo para la caja de texto input */
+#numeroInput {
+    background-color: black;
+    color: yellowgreen;
+    border: 1px solid yellowgreen;
+    padding: 5px;
+}
+
+/* Estilo para el textarea historialTextarea */
+#historialTextarea {
+    background-color: black;
+    color: yellowgreen;
+    border: 1px solid yellowgreen;
+    padding: 5px;
+    resize: none; /* Evitar que el textarea sea redimensionable */
+>>>>>>> f4878fd66b235a4d9a2a03253b8c7180ee272c18
 }
 
 /* Estilo para el textarea historialTextarea */
