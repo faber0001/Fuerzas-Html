@@ -52,6 +52,9 @@ function agregarNumero() {
 
         // Limpiar el campo de entrada
         numeroInput.value = '';
+        
+        // Hacer que el cursor aparezca automáticamente en la caja de texto después de cada operación
+        numeroInput.focus();
     } else {
         alert('Ingrese un número válido entre 0 y 37.');
     }
