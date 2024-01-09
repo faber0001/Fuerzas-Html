@@ -1,1 +1,17 @@
+/* Estilo para la caja de texto input */
+#numeroInput {
+    background-color: black;
+    color: yellowgreen;
+    border: 1px solid yellowgreen;
+    padding: 5px;
+}
+
+/* Estilo para el textarea historialTextarea */
+#historialTextarea {
+    background-color: black;
+    color: yellowgreen;
+    border: 1px solid yellowgreen;
+    padding: 5px;
+    resize: none; /* Evitar que el textarea sea redimensionable */
+}
 
